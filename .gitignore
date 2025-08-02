@@ -1,0 +1,30 @@
+# Ignore all .log files
+*.log
+
+# Ignore the 'temp' directory and its contents
+temp/
+
+# Ignore specific files
+secrets.txt
+config.ini
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Node.js module directory
+node_modules/
+.next
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore build output directories
+build/
+dist/
+
+# Negate a previously ignored file (e.g., if secrets.txt was ignored, but you want to track important_secrets.txt)
+!important_secrets.txt 
